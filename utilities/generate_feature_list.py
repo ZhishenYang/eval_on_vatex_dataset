@@ -1,8 +1,8 @@
 import os
 
 DATA_PATH = "../../videos/"
-OUT_PATH = "/home/0/18M38305/Lab_space_yang/Video_guided_machine_translation/eval_on_vatex_dataset/data/i3d/"
-VIDEO_ID = "/home/0/18M38305/Lab_space_yang/Video_guided_machine_translation/eval_on_vatex_dataset/data/bpe/tok/"
+OUT_PATH = "../data/i3d/" # Change to your own path 
+VIDEO_ID = "../data/bpe/tok/" # Change to your own path 
 
 # List of downloaded videos
 train_list = os.listdir(os.path.join(DATA_PATH, "train"))
