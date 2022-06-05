@@ -1,9 +1,9 @@
 import os
 
 DATA_PATH = "../../videos/"
-OUT_PATH = "/home/0/18M38305/Lab_space_yang/Video_guided_machine_translation/eval_on_vatex_dataset/data/resnet152/per_second_frames/"
-VIDEO_ID = "/home/0/18M38305/Lab_space_yang/Video_guided_machine_translation/eval_on_vatex_dataset/data/bpe/tok/"
-SAVE_PATH = "/home/0/18M38305/Lab_space_yang/Video_guided_machine_translation/video_features/resnet152/per_second_frames"
+OUT_PATH = "../data/resnet152/per_second_frames/" # Change to your own path
+VIDEO_ID = "../data/bpe/tok/" # Change to your own path 
+SAVE_PATH = "../resnet152/per_second_frames" # Change to your own path
 
 train_list = os.listdir(os.path.join(DATA_PATH,"train"))
 val_list = os.listdir(os.path.join(DATA_PATH,"valid"))
